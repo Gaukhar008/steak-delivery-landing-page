@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     margin: 0px;
     min-height: 100vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #main_picture {
@@ -12,9 +12,9 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 47px;
     color: #F9FAF8;
-    font-weight: extra-bold;
+    font-weight: bold;
     margin: 0px;
 }
 
@@ -40,24 +40,30 @@ h3 {
 ul {
     display: flex;
     list-style: none;
-    gap: 24px;
+    gap: 72px;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .first_part {
     display: flex;
     justify-content: space-between;
-    margin: 90px 150px 90px 150px;
-
+    margin: 20px 150px 75px 150px;
 }
+
 .main_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 500px;
     height: 280px;
-    gap: 16px;
+    gap: 24px;
 }
 
 #main_text {
@@ -69,7 +75,7 @@ ul {
     color: #F9FAF8;
     font-weight: bold;
     font-size: 18px;
-    background-color: #3882F6;
+    background-color: rgb(228, 27, 27);
     border: none;
     width: 140px;
     padding: 7px;
@@ -79,7 +85,7 @@ ul {
 #information_header_text {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 45px;
     font-size: 36px;
     color: #1F2937;
     font-weight: bold;
@@ -104,11 +110,27 @@ ul {
     flex-direction: column;
     text-align: center;
     background-color: #E5E7EB;
-    padding: 150px;
+    padding: 100px;
+    padding-bottom: 70px;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .image {
-    border: 5px solid #3882F6;
+    border: 5px solid rgb(228, 27, 27);
     width: 180px;
     height: 180px;
     border-radius: 12px;
@@ -122,6 +144,7 @@ ul {
     color: #1F2937;
     align-items: center;
     text-align: center;
+    gap: 12px;
 }
 
 .fourth_part {
@@ -136,7 +159,7 @@ ul {
     justify-content: center;
     width: 1000px;
     height: 140px;
-    background-color: #3882F6;
+    background-color: rgb(228, 27, 27, 90%);
     border-radius: 10px;
     color: #F9FAF8;
     justify-content: space-evenly;
@@ -145,6 +168,7 @@ ul {
 .action_call {
     display: flex;
     flex-direction: column;
+    gap: 6px;
 }
 
 #call {
@@ -153,7 +177,7 @@ ul {
 }
 
 #button_end {
-    background-color: #3882F6;
+    background-color: rgb(228, 27, 27, 90%);
     border: 2px solid #F9FAF8;
     padding: 7px;
     width: 140px;
